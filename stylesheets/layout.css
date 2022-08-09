@@ -398,7 +398,7 @@ section:nth-of-type(11) div:nth-of-type(2) p {
 h3 {
   font-weight: 500;
   font-size: 50px;
-  line-height: 90%;
+  line-height: 100%;
 }
 h1 {
   font-weight: bold;
@@ -422,6 +422,7 @@ h1 + h3 {
 }
 p + h3 {
   margin-top: -5px;
+  line-height: 90%;
 }
 h3 + h2 {
   margin-top: 50px;
@@ -439,7 +440,7 @@ h2 + p {
   margin-top: 5px;
   width: 92px;
   height: auto;
-  margin-bottom: -2.5px ;
+  margin-bottom: 9px ;
 }
 .height_1 {
   height: 1125px;
